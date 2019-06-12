@@ -1,0 +1,20 @@
+{
+  "name": "zendesk-coding-challenge-lucia-b",
+  "version": "1.0.0",
+  "description": "A simple ticket viewer that connects to the API and shows a list of tickets and a chosen ticket detail. Includes pagination.",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "inquirer": "^6.3.1",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "ava": "^2.0.0",
+    "axios-mock-adapter": "^1.16.0"
+  },
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "author": "Lucia Bubniakova",
+  "license": "ISC"
+}
